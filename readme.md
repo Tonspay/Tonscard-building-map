@@ -102,4 +102,26 @@ As for the developing of tonscard service , including :
             - Auto login with keypair back by redirect 
 
 - ### Tonscard one tap crosschain bridge aggregator 
-    Tonscard crosschain service including a standalong protocol & font-end .
+    Tonscard crosschain service including a standalong protocol & font-end . Allows auto crosschain service .
+    #### Main functions of crosschain bridge
+    - Bridge aggregator :
+        - fixedfloat
+        - CCIP
+        - CCTP
+        - Stargate
+    - One tap crosschain invoice 
+        - Centralized invoice
+    
+    #### Developing parts :
+    - **Web font-end**
+        - Stacks :
+            - React-js
+        - Page with functions :
+            - Auto crosschain
+    - **Back-end server**
+        - Stacks :
+            - Node-js
+        - Functions :
+            - Price compare .
+            - Bridge router .
+    
